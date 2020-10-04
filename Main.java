@@ -1,3 +1,4 @@
+import java.util.Scanner;
 /**
  *
  * @author 
@@ -9,7 +10,13 @@ public class Main {
    * @param args the command line arguments
    */
   public static void main(String[] args) {
-    // TODO code application logic here
+    //craete a scanner
+    Scaaner input = new Scanner(System.in);
+    //ask user for positive integer
+    System.out.println("Please enter a positive integer to see FizzBuzz numbers")
+    //declare a variable
+    int integer = input.nextInt();
+    //
     
   }
 }
